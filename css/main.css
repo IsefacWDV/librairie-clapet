@@ -44,8 +44,7 @@ h2 {
   font-size: 64px;
   color: #1a1a1a;
   text-align: center;
-
-  ;
+  font-weight: 200;
   text-align: center;
 }
 
@@ -255,13 +254,13 @@ button {
 }
 
 .header__title {
-  margin: 0;
+  margin-bottom: 26px;
 }
 
 .header__subtitle {
   margin: 0;
   font-size: 42px;
-  font-weight: 100;
+  font-weight: 200;
   text-shadow: 1px 1px 5px #000;
   text-align: center;
 }
