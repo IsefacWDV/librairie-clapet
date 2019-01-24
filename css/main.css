@@ -34,8 +34,10 @@ b, strong, optgroup {
 
 h1 {
   margin: 25px 0;
-  font-size: 4.5em;
-  font-weight: 700;
+  font-size: 64px;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
 }
 
 h2 {
@@ -66,7 +68,7 @@ h6 {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Montserrat', sans-serif;
   line-height: 1;
 }
 
