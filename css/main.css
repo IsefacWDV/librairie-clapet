@@ -201,7 +201,9 @@ button {
 }
 
 .chapo {
-  font-size: 1.6em;
+  font-size: 25px;
+  text-align: center;
+  width: 960px;
 }
 
 .full-width {
@@ -226,7 +228,7 @@ button {
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 35px;
-  height: 350px;
+  height: 461.7px;
   background: url("../img/background.png");
   background-size: cover;
   background-position: center bottom;
