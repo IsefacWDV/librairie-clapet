@@ -25,6 +25,8 @@ li {
 
 p {
   margin: 15px 0;
+  font-size: 20px;
+  text-align: justify;
 }
 
 b, strong, optgroup {
@@ -385,21 +387,24 @@ button {
 
 .news__date {
   margin: 0;
-  font-size: 1.8em;
+  font-size: 18px;
   color: #e8a27d;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .news__title {
   margin: 0 0 15px;
-  font-weight: bold;
-  font-size: 2em;
+  font-weight: 500;
+  font-size: 34px;
   line-height: 1.4;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .news__text {
   margin: 0;
-  font-size: 1.4em;
+  font-size: 24px;
   line-height: 1.4;
+  font-family: 'Work Sans', sans-serif;
 }
 
 .page-list .news {
@@ -464,14 +469,16 @@ button {
   font-family: 'Montserrat', sans-serif;
   margin: 0;
   font-size: 56px;
+  font-weight: 600;
   line-height: 1.4;
   color: #1a1a1a;
 }
 
 .page-single__subtitle {
   margin: 0;
-  font-size: 3.2em;
-  font-weight: 200;
+  font-size: 32px;
+  font-weight: 300;
+  font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -488,4 +495,23 @@ button {
 .index-title {
   text-align: center;
   margin-bottom: 35px;
+}
+/**
+* -----------
+* Ajout perso
+* -----------
+*/
+.quote {
+  font-family: 'Montserrat', sans-serif; 
+  color:#e8a27d;
+  font-size: 24px;
+  border-left: 4px solid #cccccc;
+  padding-left: 8px;
+}
+
+.author_quote {
+  font-family: 'Work Sans', sans-serif; 
+  font-size: 16px;
+  text-align: right;
+  padding-top: 8px;
 }
