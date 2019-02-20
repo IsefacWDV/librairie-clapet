@@ -319,6 +319,7 @@ button {
   text-align: center;
   display: flex;
   justify-content: space-around;
+  padding-top: 40px;
 }
 
 .honey-pot {
@@ -426,7 +427,7 @@ button {
 .news--main {
   padding-bottom: 35px;
   border-bottom: 1px solid #b0b0c5;
-  padding-top: 83px;
+  padding-top: 48px;
 }
 .news--main .news__link {
   display: flex;
