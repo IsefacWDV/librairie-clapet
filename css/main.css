@@ -551,3 +551,7 @@ button {
   font-size: 25px;
   text-align: justify;
 }
+
+.cover {
+  object-fit: cover;
+}
