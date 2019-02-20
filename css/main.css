@@ -236,6 +236,17 @@ button {
   overflow: hidden;
 }
 
+.header2 {
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 35px;
+  height: 461.7px;
+  background: url("../img/background2/background.png");
+  background-size: cover;
+  background-position: center bottom;
+  overflow: hidden;
+}
 
 .header__content {
   display: block;
