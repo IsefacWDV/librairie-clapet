@@ -412,19 +412,29 @@ button {
   font-family: 'Montserrat', sans-serif;
 }
 
-.news__title {
+.news__title .news__title__small .news__text .news__text_small {
   margin: 0 0 15px;
-  font-weight: 500;
-  font-size: 34px;
   line-height: 1.4;
   font-family: 'Montserrat', sans-serif;
 }
 
-.news__text {
-  margin: 0;
+.news__title {
+  font-weight: 500;
+  font-size: 34px;
+}
+
+.news__title__small {
   font-size: 24px;
-  line-height: 1.4;
-  font-family: 'Work Sans', sans-serif;
+  font-weight: 500;
+}
+
+.news__text {
+  font-size: 24px;
+  text-align: left;
+}
+
+.news__text__small {
+  font-size: 20px;
   text-align: left;
 }
 
