@@ -566,3 +566,45 @@ button {
 .cover {
   object-fit: cover;
 }
+
+.evo-big-grid {
+  display: grid;
+  grid-gap: 35px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  margin-bottom: 35px;
+  padding-top: 35px;
+}
+
+.news-big {
+  grid-column: span 2;
+  align-self: start;
+}
+
+.L2 {
+  grid-area: 2 1 2 4;
+  grid-column: span 1;
+}
+
+.L3 {
+  grid-area: 3 1 3 4;
+}
+
+.L4 {
+  grid-area: 4 1 4 4;
+  grid-column: span 1;
+}
+
+.L5 {
+  grid-area: 5 1 5 4;
+}
+
+.L6 {
+  grid-area: 6 1 6 4;
+  grid-column: span 2;
+}
+
+.L7 {
+  grid-area: 7 1 7 4;
+  grid-column: span 1;
+}
