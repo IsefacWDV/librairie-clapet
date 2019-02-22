@@ -1,0 +1,10 @@
+
+
+
+@keyframes disco {
+    0% { background-color: pink; }
+    25%  { background-color: blue; }
+    50% { background-color: yellow; }
+    75% { background-color: green; }
+    100% { background-color: orange; }
+  }

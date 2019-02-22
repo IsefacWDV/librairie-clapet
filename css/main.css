@@ -275,7 +275,6 @@
     text-align: center;
   }
 
-
   .header__nav {
     background-color: #1a1a1a;
     font-family: 'Work Sans', sans-serif;
@@ -345,11 +344,14 @@
     position: relative;
     display: inline-block;
     margin-bottom: 10px;
-    filter: grayscale(0);
+    filter: grayscale(0); 
+    transition: 1s opacity;    
   }
 
   .honey-pot__thumbnail:hover {
     filter: grayscale(60%);
+    transform : translateY(-20px);
+    opacity: 0.5;
   }
 
   .honey-pot__thumbnail img {
